@@ -34,7 +34,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd Student-Dropout-Prediction
+  cd Diabetic-Retinopathy-Classification
 ```
 
 Create virtual environment using environement.yml
