@@ -20,15 +20,15 @@
 <h3 align="center">Diabetic Retinopathy classification from retinal image</h3>
 
 ## Project Overview
-Diabetic Retibnoapthy classification using state of the art deep learning algorithms is one of the most research are in modern Artificial Intelligence. With the availibility of data many industries and researchers are working together to make it productionizable and useful for doctors as well as patients as screening tool.Here i've applied transfer learning method as well as our own architecture to train our data.Some of the algorithms are VGG16,ResNet50, ResNet15,EfficientNet B0-B5. Among them EfficientNet B5 have perofrmed better.
-**N.B: All the models and weights here are kept dummy as it's sensitive and not shareable.
+Diabetic Retibnoapthy classification using state of the art deep learning algorithms is one of the most research are in modern Artificial Intelligence. With the availibility of data many industries and researchers are working together to make it productionizable and useful for doctors as well as patients as screening tool.Here i've applied transfer learning method as well as our own architecture to train our data.Some of the algorithms are VGG16,ResNet50, ResNet15,EfficientNet B0-B5. Among them EfficientNet B5 have perofrmed better. \
+**N.B: All the models and weights here are kept dummy as it's sensitive and not shareable**.
 
 ## Run Locally
 
 Clone the project
 
 ```bash
-  git clone https://github.com/skfaysal/Student-Dropout-Prediction.git
+  git clone https://github.com/skfaysal/Diabetic-Retinopathy-Classification.git
 ```
 
 Go to the project directory
@@ -37,23 +37,18 @@ Go to the project directory
   cd Student-Dropout-Prediction
 ```
 
-Create virtual environment using Anaconda
+Create virtual environment using environement.yml
 
 ```bash
-  conda create -n stdropout python==3.7
+  conda env create -f environment.yml
 ```
 
 Activate environment
 
 ```bash
-  conda activate stdropout
-```
-Install dependencies
-
-```bash
-  pip install -r requirements.txt
+  conda activate heat_map
 ```
 For Training Model
 ```bash
-  python3 dropout_model_training.py
+  python3 scripts/main.py
 ```
